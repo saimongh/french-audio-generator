@@ -1,14 +1,14 @@
-# echo
+# french audio generator
 
-echo is a minimalist web application designed for language learning. it plays audio for shadowing and uses flashcards to test active recall.
-
-## how it works
-
-* **flashcard mode:** hides the target language to test memory. clicking the card reveals the translation and triggers the audio.
-* **listen mode:** displays both english and target phrases together with direct audio controls for continuous pronunciation practice.
-* **custom study queues:** allows users to select specific categories and shuffle the active phrases.
-* **progress tracking:** a visual meter tracks your position within the active study session.
+this web application generates mp3 audio files for custom french phrases. it uses the elevenlabs api to synthesize speech and bundles the files into a zip archive for flashcard applications.
 
 ## why i made it
 
-i built echo to help me learn french pronunciation for the specific phrases i want to use. this setup ensures any user can learn at their own level and focus entirely on whatever it is they actually want to say.
+i built this tool to learn french pronunciation for the specific phrases i use daily. this method allows any user to learn at their own level and study exactly what they want to say.
+
+## how it works
+
+* **connect.** input your elevenlabs api key to link the application.
+* **select a voice.** choose and preview a specific voice model.
+* **input text.** use the default library, type a single custom phrase, or paste a bulk list of phrases.
+* **generate.** the application processes the text, creates individual mp3 files, and downloads them in an organized zip file.
